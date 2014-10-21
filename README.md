@@ -21,6 +21,12 @@ MySQL in turn had the following:
 * review_comments: 5002710 rows
 * review_ratings: 14305657 rows
 
+## Schemas
+
+The directory `schema/` contains the PostgreSQL and MySQL schemas of the various
+tables, minus the actual data. These schemas have been trimmed as to not contain
+private or useless information.
+
 ## Requirements
 
 * Ruby 2.1 or newer
